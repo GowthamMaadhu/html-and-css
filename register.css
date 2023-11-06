@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body .image{
+    display:flex;
+    align-items: left;
+    
+}
+body {
+    background :#081b29; 
+    
+   
+}
+.header{
+    background-color: rgb(15, 237, 237);
+    padding:6px;
+    color:white;
+    transition: 3s;
+
+    
+
+}
+.logo{
+    margin: 16px;
+    size: 16px;
+  
+  }
+  .header b{
+    padding:20px
+   
+}
+.header marquee{
+    font-size:20px;
+    font-style: italic;
+    color:white;
+}
+.navbar {
+    float:right;
+    padding:25px 0px;
+    
+    margin: 0px auto;
+}
+.navbar a{
+    width: 1300px;
+    margin: 0px auto;
+    color:#00abf0
+    font-weight: 600;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin:15px;
+    transition: 1s;
+   
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #00abf0;
+    text-decoration: underline;
+
+
+}
+.head{
+    width:1400px;
+}
+  
+.container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background :#081b29;
+    
+}
+
+.main{
+  
+    
+    width:750px;
+    /* background: purple; */
+    background: transparent;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 25px #0ef;
+    border-radius: 10px;
+    color:#fff;
+    padding:40px 35px 55px;
+}
+.main h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main .box{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background:slateblue; */
+
+}
+.box .field{
+    position:relative;
+    width:48%;
+    /* background: salmon; */
+    margin:13px 0;
+}
+.box .field input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:2px solid rgba(255, 255, 255, .2);
+    outline:none;
+    font-size:16px;
+    color:#fff;
+    border-radius:6px;
+    padding:15px 15px 15px 40px;
+   
+
+}
+
+
+
+
+.box .field input::placeholder{
+    color:#fff
+
+
+}
+.box .field i{
+    position:absolute;
+    left:15px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:20px;
+}
+
+
+
+
+.main label{
+    display:inline-block;
+    font-size:14px;
+    margin:10px 0 23px;
+}
+.main label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+.main .btn{
+   
+    position:relative;
+    width:100%;
+    height:45px;
+    background:transparent;
+    border:2px solid #0ef;
+    outline:none;
+    border-radius: 40px;
+    cursor:pointer;
+    font-size: 16px;
+    color:#fff;
+    font-weight: 600;
+    z-index:1;
+    overflow:hidden;
+
+}
+.btn::before{
+    content:'';
+    position:absolute;
+    top:-100%;
+    left:0;
+    width:100%;
+    height:300%;
+    background: linear-gradient(#081b29,#0ef,#081b29,#0ef);
+    z-index: -1;
+    transition: .5s;
+
+}
+.btn:hover::before{
+    top:0;
+
+}
+footer {
+    background-color:#0ef;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+

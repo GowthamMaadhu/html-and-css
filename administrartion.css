@@ -1,0 +1,225 @@
+header{
+    font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+   left:0;
+  width: 100%;
+}
+.container {
+    width: 1400px;
+    margin: 0px auto;
+  } 
+ 
+  .heading {
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid #46b7c1; 
+    margin-bottom: 20px; 
+    color: #46b7c1;
+    
+  }
+ 
+ 
+ .header{
+     background-color: rgb(15, 237, 237);
+     padding:6px;
+     transition: 3s;
+     
+ 
+ }
+ .logo{
+   margin: 16px;
+   size: 16px;
+ 
+ }
+ 
+ .header b{
+     padding:20px
+    
+ }
+ .header marquee{
+     font-size:20px;
+     font-style: italic;
+     color:white;
+ }
+ .navbar {
+     float:right;
+     padding:25px 0px;
+     
+     margin: 0px auto;
+ }
+ .navbar a{
+     width: 1300px;
+     margin: 0px auto;
+     font-weight: 600;
+     font-size: 16px;
+     justify-content: space-between;
+     margin-left: 35px;
+     margin:15px;
+     transition: 3s;
+    
+     text-decoration: none;
+ }
+ .navbar a:hover{
+     color: #00abf0;
+     border:1px solid #0aef;
+     
+ 
+ }
+.topbar {
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-size: 24px;
+ 
+}
+
+
+  nav ul {
+    list-style: none;
+    display: flex;
+
+   }
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:orange;
+    font-weight: 600;
+
+}
+/* CSS for the Admissions page */
+.qu{
+
+font-size:24px;
+position:fixed;
+top:90px;
+
+}
+.admissions-page {
+    padding: 50px;
+}
+.contact{
+    position:relative;
+    min-height: 100vh;
+    z-index: 0;
+    background :white;
+    padding:30px;
+    justify-content:center;
+    display:grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+.container{
+    max-width: 700px;
+    margin-top: 0 auto;
+}
+.contact h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color:black;
+
+}
+.contact h2{
+    line-height: 40px;
+    margin-bottom:5px;
+    font-size: 30px;
+    font-weight: 500;
+    
+    text-align: center;
+
+}
+.contact .main{
+    position:relative;
+    display:flex;
+    margin:30px 0;
+    justify-content: space-between;
+}
+.cont{
+    flex-basis: 50%;
+    padding: 3cm 3cm;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0 ,0.1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.btn ,button,input{
+    border-radius: 5px;
+
+}
+.btn ,button:hover{
+    color:#97359c;
+    transition: 0.5s ease;
+}
+.contact form{
+    margin:30px 0;
+}
+.contact input{
+    outline:none;
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color:#999;
+    padding: 14px 20px;
+    width:100%;
+    display:inline-block;
+    box-sizing: border-box;
+    border:none;
+    background: #fcfcfc;
+    transition: 0.3s ease;
+}
+.contact input:focus{
+    background: transparent;
+    border:1px solid #69275c;
+    
+}
+.contact button{
+    font-size: 18px;
+    color:#fff;
+    width:100%;
+    background:#0aef;
+    font-weight: 600;
+    transition: 0.3 ease;
+    padding: 14px 15px;
+}
+.admissions-page h1 {
+padding: 50px;
+
+    font-size: 36px;
+    text-align: center;
+}
+
+.admissions-info, .admissions-process, .scholarships, .discounts {
+    margin: 20px 0;
+}
+
+.admissions-info h2, .admissions-process h2, .scholarships h2, .discounts h3 {
+    font-size: 24px;
+}
+
+.admissions-process ul, .discounts ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.discounts ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* footer css*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
